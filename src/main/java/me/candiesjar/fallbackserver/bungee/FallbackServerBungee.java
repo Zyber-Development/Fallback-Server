@@ -35,27 +35,23 @@ public final class FallbackServerBungee extends Plugin {
     public void onEnable() {
 
         // Instances
-        getLogger().info("§7[§b!§7] Loading configuration §7[§b!§7]");
+        getLogger().info("Loader FallBackServer");
         instance = this;
         loadConfig();
         loadMessages();
 
         // Listeners
-        getLogger().info("§7[§b!§7] Loading listeners §7[§b!§7]");
         loadListeners();
 
         // Commands
-        getLogger().info("§7[§b!§7] Loading commands §7[§b!§7]");
         loadCommands();
 
         // Stats
-        getLogger().info("§7[§b!§7] Loading stats §7[§b!§7]");
         startMetrics();
 
         // Setup
-        getLogger().info("§7[§b!§7] Loading plugin §7[§b!§7]");
 
-        getLogger().info("§7Loaded successfully, for any doubts see the config.yml file!");
+        getLogger().info("§7Loadede fallbackserver!");
 
         startCheck();
         checkLobbies();
@@ -64,7 +60,7 @@ public final class FallbackServerBungee extends Plugin {
     public void onDisable() {
         instance = null;
         availableServers.clear();
-        getLogger().info("§7[§c!§7] §cDisabling FallbackServer §7[§c!§7]");
+        getLogger().info("§7[§c!§7] Slår FallBackServer fra");
     }
 
     private void loadCommands() {
