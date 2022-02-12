@@ -34,7 +34,7 @@ public class SubCommandManager extends Command implements TabExecutor {
             return;
 
         if (!sender.hasPermission(ConfigFields.PERMISSION.getString())) {
-            sender.sendMessage(new TextComponent("§8§l» §7Running §b§nFallback Server %version% §7by §b§nCandiesJar"
+            sender.sendMessage(new TextComponent("§8§l[§3§l!§8§l] §7Du har ikke adgang til denne kommando"
                     .replace("%version%", FallbackServerBungee.getInstance().getDescription().getVersion())));
             return;
         }
