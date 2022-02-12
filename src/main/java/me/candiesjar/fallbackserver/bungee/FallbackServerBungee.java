@@ -55,11 +55,6 @@ public final class FallbackServerBungee extends Plugin {
         // Setup
         getLogger().info("§7[§b!§7] Loading plugin §7[§b!§7]");
 
-        getLogger().info("§b __________      ________________              ______      ________                               ");
-        getLogger().info("§b ___  ____/_____ ___  /__  /__  /_______ _________  /__    __  ___/______________   ______________");
-        getLogger().info("§b __  /_   _  __ `/_  /__  /__  __ \\  __ `/  ___/_  //_/    _____ \\_  _ \\_  ___/_ | / /  _ \\_  ___/");
-        getLogger().info("§b _  __/   / /_/ /_  / _  / _  /_/ / /_/ // /__ _  ,<       ____/ //  __/  /   __ |/ //  __/  /    ");
-        getLogger().info("§b /_/      \\__,_/ /_/  /_/  /_.___/\\__,_/ \\___/ /_/|_|      /____/ \\___//_/    _____/ \\___//_/     ");
         getLogger().info("§7Loaded successfully, for any doubts see the config.yml file!");
 
         startCheck();
